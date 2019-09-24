@@ -1,3 +1,6 @@
+.text {
+  color: #dddddd;
+}
 
 body {
     background-image: url("full-bloom.png");
@@ -20,6 +23,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+
 }
 h1,
 h2,
@@ -29,7 +33,7 @@ p {
 }
 
 p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 25px;
 }
 
 h1,
@@ -76,9 +80,10 @@ p {
 p {
     background-color: white;
     padding: 25px;
+    margin-bottom: 25px;
 }
 p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 25px;
   }
 #logo{
     float: left;
@@ -98,12 +103,11 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #ffffff;
-  color: #cccccc;
   text-align: center;
   background: #666666;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+  color: #ffffff;
 }
 
 h3, h2 {
@@ -113,7 +117,6 @@ h3, h2 {
   border-bottom: 2px solid #eeeeee;
 }
 
-}
 #img{
     float: left;
     margin: 20px;
@@ -170,4 +173,7 @@ h3, h2 {
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
+  }
+  .card{
+    margin-bottom: 20px;
   }
