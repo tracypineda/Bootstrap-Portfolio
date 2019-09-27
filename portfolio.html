@@ -22,83 +22,69 @@
 </head>
 
 <body>
-    <div class="page-container">
-        <div class="content-wrap">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-light" style="background-color:whitesmoke;">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+            </li>
+        </ul>
+        <a href="index.html" id="logo">Tracy Pineda</a>
 
-            <a href="index.html" id="logo">Tracy Pineda</a>
-
-            <div id="main-container" class="container">
-                <section class="main-content">
-                    <h1>Portfolio</h1>
-                    <div class="row">
-                        <div class="col-md-6 col-xs-10 col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="seb.jpg" class="card-img-top" alt="seb">
-                                <div class="card-body">
-                                    <h5 class="card-title">Giphyness</h5>
-                                    <p class="card-text">Getting Giphy</p>
-                                    <a class="btn btn-primary" href="https://tracypineda.github.io/giphy/">Go to
-                                        Giphyness</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-xs-10 col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="stella.jpg" class="card-img-top" alt="stella">
-                                <div class="card-body">
-                                    <h5 class="card-title">Train Scheduler</h5>
-                                    <p class="card-text">Train scheduler created using moment.js.</p>
-                                    <a class="btn btn-primary" href="https://tracypineda.github.io/train/">Go to Train
-                                        Scheduler</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-xs-10">
-                            <div class="card" style="width: 18rem;">
-                                <img src="ragnar.jpg" class="card-img-top" alt="ragnar">
-                                <div class="card-body">
-                                    <h5 class="card-title">Crystal Collector</h5>
-                                    <p class="card-text">Play the fun Crystal Collector game!</p>
-                                    <a class="btn btn-primary" href=" https://tracypineda.github.io/unit-4-game/">Go to
-                                        Crystal Collector Game</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xs-10 col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="me.jpg" class="card-img-top" alt="me">
-                                <div class="card-body">
-                                    <h5 class="card-title">Trivia Game</h5>
-                                    <p class="card-text">Check out the Ironman triathlon-based Trivia Game </p>
-                                    <a class="btn btn-primary" href="https://tracypineda.github.io/TriviaGame/">Go to
-                                        Trivia Game</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More about me...
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="TracyPinedaResume2019.pdf">Resume</a>
+                <a class="dropdown-item" href="https://www.linkedin.com/in/tracy-pineda/">LinkedIN</a>
+                <a class="dropdown-item" href="https://github.com/tracypineda">GitHub</a>
             </div>
-            <footer class="footer mt-auto py-3">
-                <div class="container">
-                    <span class="text"> Copywrite &copy;</span>
-                </div>
-            </footer>
+        </div>
+
+    </nav>
+    <h1>Portfolio</h1>
+
+    <!-- card deck -->
+    <div class="card-deck">
+        <div class="card">
+            <img src="seb.jpg" class="card-img-top" alt="seb">
+            <div class="card-body">
+                <h5 class="card-title-center">Trivia</h5>
+                <a class="btn btn-secondary" href="https://tracypineda.github.io/TriviaGame/"> Trivia </a>
+                <a class="btn btn-secondary" href="https://github.com/tracypineda/TriviaGame.git"> GitHub Trivia</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="stella.jpg" class="card-img-top" alt="Stella">
+            <div class="card-body">
+                <h5 class="card-title-center">Project One</h5>
+                <a class="btn btn-secondary" href="https://nickcooper.github.io/projectOne/">Project One</a>
+                <a class="btn btn-secondary" href="https://github.com/nickcooper/projectOne.git">GitHub Project One</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ragnar.jpg" class="card-img-top" alt="ragnar">
+            <div class="card-body">
+                <h5 class="card-title-center">Crystal Collector</h5>
+                <a class="btn btn-secondary" href="https://tracypineda.github.io/unit-4-game/"> Crystal Collector</a>
+                <a class="btn btn-secondary" href="https://github.com/tracypineda/unit-4-game.git"> GitHub Crystal
+                    Collector</a>
+            </div>
         </div>
     </div>
+    <!-- card deck end -->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text"> Copywrite &copy;</span>
+        </div>
+    </footer>
 </body>
 
 </html>
